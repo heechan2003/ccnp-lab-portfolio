@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+*.swp
+*~
+
+# Defensive: nothing from the private working repo should ever land here.
+# The working repo holds host credentials, sealed fault answer keys and
+# purchased reference PDFs. None of it belongs in a public repo.
+runs/
+*.env
+.env
+key.json
+**/private/
+*.pdf
