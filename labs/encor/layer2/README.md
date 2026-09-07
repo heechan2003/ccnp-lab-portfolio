@@ -2,6 +2,8 @@
 
 ![Topology](topology.png)
 
+Import [`layer2.unl`](layer2.unl) to build this topology — nodes and cabling only.
+
 ENCOR 3.1.a/b/c · 5 IOL switches + 3 VPCS · Sep 2026
 
 ## Addressing
