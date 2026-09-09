@@ -10,6 +10,7 @@ faults have to be found from the symptoms.
 | Lab | Covers | Objectives |
 |---|---|---|
 | [Layer 2](labs/encor/layer2/) | VLANs, trunking, EtherChannel, STP/MST | 3.1.a–c |
+| [IGP](labs/encor/igp/) | OSPFv2/v3, multiple areas, summarization, filtering | 3.2.a–b |
 
 ## ENARSI 300-410
 
@@ -31,7 +32,8 @@ The lab then appears in the web UI. (The UI's own Import expects a `.zip`, so zi
 
 | Node | Image in the `.unl` | What else works |
 |---|---|---|
-| Switches | `i86bi-linux-l2-adventerprisek9-15.1a.bin` | any IOL **L2** image, any version. An L3/router image will not — this lab needs switchports |
+| Switches | `i86bi-linux-l2-adventerprisek9-15.1a.bin` | any IOL **L2** image, any version. An L3/router image will not — the Layer 2 lab needs switchports |
+| Routers | `i86bi-linux-l3-jk9s-15.0.1.bin` | any IOL **L3** image. 15.0.1 predates OSPFv3 address-family syntax, so the IGP lab uses `ipv6 router ospf` |
 | Test hosts | VPCS | ships with EVE-NG, nothing to obtain |
 
 Cisco images are not distributed here. If your filename differs the topology still
