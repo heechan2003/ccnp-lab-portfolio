@@ -11,6 +11,7 @@ faults have to be found from the symptoms.
 |---|---|---|
 | [Layer 2](labs/encor/layer2/) | VLANs, trunking, EtherChannel, STP/MST | 3.1.a–c |
 | [IGP](labs/encor/igp/) | OSPFv2/v3, multiple areas, summarization, filtering | 3.2.a–b |
+| [BGP](labs/encor/bgp/) | eBGP peering, best path selection, PBR | 3.2.c–d |
 
 ## ENARSI 300-410
 
